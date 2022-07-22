@@ -26,7 +26,7 @@ a {
 
 .flex-container {
     display: flex;
-    color: rgb(81, 156, 255);
+    color: rgb(255, 255, 255);
     flex-direction: row;
     font-size: 30px;
   }
