@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 body{
-    background-image:url("/images/python.png");
+    background-image:url("images/python.png");
     background-size:auto;
     font-family: 'Kanit', sans-serif;
     flex-wrap: wrap;
