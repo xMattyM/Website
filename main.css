@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
 body{
-    background-image:url("images/python.png");
-    background-size:auto;
-    font-family: 'Kanit', sans-serif;
-    flex-wrap: wrap;
+  background-image: url("http://all4desktop.com/data_images/original/4245965-fire.jpg");
+  background-size: auto 100vh;
 }
 a {
     color: aqua;
