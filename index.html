@@ -5,6 +5,20 @@
     <link rel="stylesheet" href="main.css">
     <title>Home</title>
 </head>
+<script>
+    var text = ["I", "Love", "Code"];
+    var counter = 0;
+    var inst = setInterval(change, 1000);
+    
+    function change() {
+        var elem = document.getElementById("changeText");
+         elem.innerHTML = text[counter];
+      counter=counter+1;
+      if (counter >= text.length) {
+        counter = 0;
+        // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+      }
+    }</script>
 <body>
     <div id="navbar">
         <a href="index.html">Home</a>
@@ -13,5 +27,18 @@
         <a href="guides.html">Guides</a>
         <a href="unity.html">Unity</a>
     </div>
+    <div class="flex-container">
+
+        <div class="flex-item-left">
+        <h1></h1>
+        </div>
+        <div class="flex-item-center">
+        <h1 id="changeText"></h1>
+        </div>
+        <div class="flex-item-right">
+        <h1></h1>
+        </div>
+    </div>
+
 </body>
 </html>
